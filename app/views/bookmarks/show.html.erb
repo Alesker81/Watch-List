@@ -1,0 +1,14 @@
+<h1>Watch list</h1>
+
+ p><%= @bookmarks%></p>
+ p><%= @lists%></p>
+
+<% if @bookmark.completed %>
+ ......
+<% else %>
+ .....
+<% end %>
+
+<hr>
+
+<%= link_to "Back to list", bookmark_path %>
